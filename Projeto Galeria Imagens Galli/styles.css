@@ -1,0 +1,49 @@
+Body{
+    background-color: #f4f4f4;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: #173c11;
+    color: #fff;
+    text-align: center;
+    font-family: jetBrains monospace;
+}
+.botao-categoria{
+    background-color: #909396;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    height: 70px;
+    background-color: #173c11;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.active{
+    background-color: #0e5c09;
+}
+
+.box-imagens{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.imagem-item {
+    margin: 10px;
+}
+
+.imagem-item img{
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 3);
+    max-height: calc(100vh - 200px);
+}
